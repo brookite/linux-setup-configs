@@ -6,6 +6,9 @@ libstdc++-dev
 g++
 gcc
 nano
+ffmpeg
+libvlc-bin
+libvlc-dev
 tar
 apt-transport-https
 command-not-found
