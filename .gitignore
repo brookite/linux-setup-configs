@@ -1,1 +1,3 @@
 configs/wpa_supplicant.conf
+configs/gitconfig.sh
+keys/

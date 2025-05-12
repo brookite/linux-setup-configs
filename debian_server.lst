@@ -18,6 +18,10 @@ fzf
 build-essential
 cmake
 ninja-build
+gnupg2
+ca-certificates
+lsb-release
+debian-archive-keyring
 libtool-bin
 autoconf
 zlib1g-dev
@@ -32,6 +36,8 @@ tk-dev
 ca-certificates
 libtree-sitter-dev
 tree-sitter-cli
+nginx
+nginx-extras
 tree-sitter
 gettext
 tmux
