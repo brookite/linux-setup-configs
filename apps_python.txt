@@ -1,0 +1,6 @@
+retext
+jrnl
+yt-dlp
+auto-py-to-exe
+pip-review
+pywebcopy
