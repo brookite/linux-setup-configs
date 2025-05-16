@@ -3,12 +3,17 @@ adobe-source-han-sans-otc-fonts
 adobe-source-han-serif-otc-fonts
 amd-ucode
 intel-ucode
+less
 aspnet-runtime
 uthash
+nvme-cli
+touchegg
 baobab
+system-config-printer
 tmux
 base
 base-devel
+python-pip
 alacritty
 telegram-desktop
 diffutils
@@ -62,7 +67,6 @@ hunspell-ru
 uv
 ruff
 inkscape
-iwd
 jdk21-openjdk
 jdk8-openjdk
 jupyter-notebook
@@ -71,17 +75,15 @@ kvantum
 kvantum-qt5
 libreoffice-fresh
 libreoffice-fresh-ru
-maui-pix
 mc
 mypy
 nano
 nemo-emblems
-nemo-fileroller
 nemo-image-converter
 nemo-pastebin
 nemo-share
 nemo-seahorse
-nemo-audio-tag
+nemo-audio-tab
 qrencode
 sshfs
 bat
@@ -104,7 +106,6 @@ obsidian
 onboard
 os-prober
 papirus-icon-theme
-pinta
 plymouth
 doublecmd-qt6
 pyside6
@@ -201,6 +202,7 @@ wireguard-tools
 wireless_tools
 xclip
 xcursor-themes
+flatpak
 xcursor-vanilla-dmz
 xdg-desktop-portal-gtk
 xdg-user-dirs
@@ -208,6 +210,7 @@ xdg-user-dirs-gtk
 xed
 xreader
 ytfzf
+redshift
 zram-generator
 gnupg
 lz4
@@ -218,3 +221,7 @@ yt-dlp
 zsh
 zsh-completions
 zsh-autosuggestions
+wine
+android-tools
+wine-mono
+wine-gecko

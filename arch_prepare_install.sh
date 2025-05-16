@@ -5,7 +5,7 @@
 set -e
 
 echo "Обновление списка пакетов..."
-sudo pacman -Syu archinstall --noconfirm
+sudo pacman -Sy archinstall --noconfirm
 
 # Установка шрифта Terminus
 echo "Установка шрифта Terminus..."
@@ -25,6 +25,8 @@ echo "Настройка терминала для использования ш
 # Для консольных терминалов нужно указать в настройках терминала использовать шрифт Terminus.
 # В терминале используйте: `setfont ter-116n` для временного изменения шрифта.
 # Для постоянного изменения шрифта для tty (консоль), можно отредактировать файл:
-echo "setfont ter-116n" | sudo tee -a /etc/vconsole.conf
+echo "setfont ter-v32b" | sudo tee -a /etc/vconsole.conf
 
 echo "Настройка завершена!"
+
+setfont ter-v32b
