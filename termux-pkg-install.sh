@@ -11,5 +11,5 @@ pkg install python-numpy python-pillow python-pandas python-lxml python-scipy py
 pkg install llvm-15 -y
 LLVM_CONFIG=/data/data/com.termux/files/usr/opt/libllvm-15/bin/llvm-config pip install llvmlite numba
 
-bash
+unset LLVM_CONFIG
 python -m pip install --upgrade -r requirements_termux.txt --extra-index-url https://termux-user-repository.github.io/pypi/

@@ -2,6 +2,9 @@ adapta-gtk-theme
 adobe-source-han-sans-otc-fonts
 adobe-source-han-serif-otc-fonts
 amd-ucode
+hicolor-icon-theme
+ripgrep
+pass
 intel-ucode
 dos2unix
 less
@@ -188,6 +191,7 @@ ttf-lato
 ttf-liberation
 ttf-cascadia-code
 ttf-hack-nerd
+inter-font
 ttf-fira-mono
 ttf-fira-sans
 ttf-jetbrains-mono
