@@ -50,6 +50,7 @@ echo "🔄 Установка Temurin, Node.js и Docker..."
 sudo apt-get update
 sudo apt install -y temurin-21-jdk temurin-8-jdk
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo usermod -aG docker $USER
 
 # Python: обновление pip и установка зависимостей
 echo "🐍 Обновление python..."
