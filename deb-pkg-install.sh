@@ -10,7 +10,7 @@ echo "📦 Установка базовых пакетов из debian_server.l
 xargs -a debian_server.lst sudo apt install -y
 
 # Если это Raspberry Pi OS — ставим дополнительные пакеты
-if grep -q "Raspbian" /etc/os-release; then
+if [ -f /etc/rpi-issue ]; then
   echo "🍓 Обнаружена Raspberry Pi OS! Установка дополнительных пакетов из raspberry.lst..."
   xargs -a raspberry.lst sudo apt install -y
 fi
@@ -34,17 +34,21 @@ echo \
 
 # Node JS
 echo "🟢 Установка Node.js репозитория..."
-curl -sL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+\. "$HOME/.nvm/nvm.sh"
+nvm install 22
+npm config set prefix '~/.local/'
 bash npm_install.sh
+
 
 # Rust
 echo "🦀 Установка Rust..."
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Установка JDK, Node и Docker после добавления реп
 echo "🔄 Установка Temurin, Node.js и Docker..."
 sudo apt-get update
-sudo apt install -y temurin-21-jdk temurin-8-jdk nodejs
+sudo apt install -y temurin-21-jdk temurin-8-jdk
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Python: обновление pip и установка зависимостей
@@ -58,9 +62,11 @@ cd neovim
 make CMAKE_BUILD_TYPE=Release
 cd build
 cpack -G DEB
+DEB_PKG=$(find . -maxdepth 1 -name "nvim-*.deb" | head -n1)
+mv "$DEB_PKG" nvim-linux64.deb
 sudo dpkg -i nvim-linux64.deb
 cd ../../
-rm -rf neovim
+sudo rm -rf neovim
 
 # LLVM установка
 echo "🛠️ Установка LLVM 20..."
