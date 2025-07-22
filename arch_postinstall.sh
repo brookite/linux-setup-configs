@@ -104,4 +104,5 @@ echo "🔄 Запуск установки через npm..."
 bash "$SCRIPT_DIR/npm_install.sh"
 
 sudo ln -sf /usr/bin/nvim /usr/bin/vi
+yay --save --answerdiff None --answerclean None --removemake
 echo "🎉 Все зависимости установлены!"

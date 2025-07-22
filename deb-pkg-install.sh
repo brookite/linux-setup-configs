@@ -58,8 +58,8 @@ bash pybuild.sh
 
 # Neovim сборка
 echo "📝 Сборка и установка Neovim..."
-git clone --branch stable https://github.com/neovim/neovim
-cd neovim
+git clone --branch stable --depth 1 https://github.com/neovim/neovim ~/neovim
+cd ~/neovim
 make CMAKE_BUILD_TYPE=Release
 cd build
 cpack -G DEB
