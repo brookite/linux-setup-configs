@@ -5,11 +5,13 @@ icdiff
 galois
 reedsolo
 tree-sitter
+pyjson5
 tree-sitter-language-pack
 pyqt5
 qscintilla
 xxhash
 pymorphy3
+exif
 dateparser
 pyside6
 keyboard

@@ -4,6 +4,7 @@ dateparser
 black
 reedsolo
 galois
+pyjson5
 icdiff
 keyboard
 mouse
@@ -13,6 +14,7 @@ tree-sitter
 termcolor
 termux-api
 mypy
+exif
 natsort
 tabulate
 citeproc-py

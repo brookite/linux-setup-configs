@@ -8,11 +8,13 @@ icdiff
 tree-sitter
 tree-sitter-language-pack
 keyboard
+pyjson5
 mouse
 termcolor
 bidict
 natsort
 croniter
+exif
 citeproc-py
 tabulate
 bcrypt
