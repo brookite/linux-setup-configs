@@ -13,6 +13,8 @@ croniter
 tree-sitter
 termcolor
 termux-api
+deepdiff
+openai
 mypy
 exif
 natsort

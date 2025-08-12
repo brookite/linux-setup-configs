@@ -11,6 +11,8 @@ keyboard
 pyjson5
 mouse
 termcolor
+deepdiff
+openai
 bidict
 natsort
 croniter

@@ -13,3 +13,5 @@ LLVM_CONFIG=/data/data/com.termux/files/usr/opt/libllvm-15/bin/llvm-config pip i
 
 unset LLVM_CONFIG
 python -m pip install --upgrade -r requirements_termux.txt --extra-index-url https://termux-user-repository.github.io/pypi/
+
+cargo install ripgrep tree-sitter-cli

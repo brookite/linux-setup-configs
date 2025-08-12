@@ -38,6 +38,8 @@ adict
 fs
 seaborn
 dominate
+openai
+deepdiff
 bidict
 yt-dlp[default]
 aiohttp
