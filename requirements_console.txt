@@ -11,6 +11,7 @@ keyboard
 pyjson5
 mouse
 termcolor
+tomlkit
 deepdiff
 openai
 bidict

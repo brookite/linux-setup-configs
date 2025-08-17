@@ -12,6 +12,7 @@ conan
 croniter
 tree-sitter
 termcolor
+tomlkit
 termux-api
 deepdiff
 openai

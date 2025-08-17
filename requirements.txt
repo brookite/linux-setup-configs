@@ -18,6 +18,7 @@ keyboard
 mouse
 bcrypt
 python-jose[cryptography]
+tomlkit
 alembic
 citeproc-py
 python-benedict[io]
