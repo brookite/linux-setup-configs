@@ -2,7 +2,6 @@ requests[socks]
 BeautifulSoup4
 pygame
 icdiff
-galois
 reedsolo
 tree-sitter
 pyjson5
@@ -10,6 +9,7 @@ tree-sitter-language-pack
 pyqt5
 qscintilla
 xxhash
+pyzstd
 pymorphy3
 exif
 dateparser

@@ -2,13 +2,13 @@ requests[socks]
 BeautifulSoup4
 dateparser
 black
-galois
 reedsolo
 icdiff
 tree-sitter
 tree-sitter-language-pack
 keyboard
 pyjson5
+pyzstd
 mouse
 termcolor
 tomlkit

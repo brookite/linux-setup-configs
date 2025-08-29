@@ -3,7 +3,6 @@ BeautifulSoup4
 dateparser
 black
 reedsolo
-galois
 pyjson5
 icdiff
 keyboard
@@ -12,6 +11,7 @@ conan
 croniter
 tree-sitter
 termcolor
+pyzstd
 tomlkit
 termux-api
 deepdiff
