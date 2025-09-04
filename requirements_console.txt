@@ -128,3 +128,7 @@ pyls-isort
 fastapi
 pydantic
 uvicorn[standard]
+grpcio
+grpcio-tools
+protobuf
+cbor2

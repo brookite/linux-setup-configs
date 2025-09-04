@@ -10,4 +10,4 @@ pkg install python-numpy python-pillow python-pandas python-lxml python-scipy py
 
 python -m pip install --upgrade -r requirements_termux.txt --extra-index-url https://termux-user-repository.github.io/pypi/
 
-cargo install ripgrep tree-sitter-cli
+cargo install tree-sitter-cli
