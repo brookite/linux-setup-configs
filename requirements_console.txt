@@ -55,10 +55,13 @@ pyfzf
 segno
 python-docx
 conan
+jsonpatch
+jsonschema
 emoji
 pynbt
 dishka
 pygtrie
+APScheduler
 pycryptodome
 progressbar
 psutil
@@ -132,3 +135,4 @@ grpcio
 grpcio-tools
 protobuf
 cbor2
+Brotli

@@ -150,3 +150,7 @@ grpcio
 grpcio-tools
 protobuf
 cbor2
+Brotli
+jsonpatch
+jsonschema
+APScheduler
