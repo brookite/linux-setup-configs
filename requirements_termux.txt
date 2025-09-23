@@ -117,6 +117,5 @@ pyls-isort
 fastapi
 pydantic
 uvicorn[standard]
-scikit-learn
 cbor2
 protobuf
