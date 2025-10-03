@@ -37,6 +37,7 @@ fs
 yt-dlp[default]
 python-Levenshtein
 python-telegram-bot
+plyvel
 validators
 pyzipper
 pymorphy3

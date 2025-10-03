@@ -30,6 +30,7 @@ mimesis
 tinydb
 dishka
 bpython
+plyvel
 schedule
 pymorphy3
 python-dotenv

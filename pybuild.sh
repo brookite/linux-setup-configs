@@ -16,10 +16,11 @@ cd ~
 # 📦 Установка необходимых зависимостей для сборки
 echo "📦 Установка сборочных пакетов..."
 sudo apt update
-sudo apt install -y build-essential libssl-dev zlib1g-dev \
-  libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev \
-  libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev \
-  tk-dev libffi-dev wget curl git libnsl-dev uuid-dev libtirpc-dev
+sudo apt install -y gdb lcov pkg-config \
+      libbz2-dev libffi-dev libgdbm-dev libgdbm-compat-dev liblzma-dev \
+      libncurses-dev libreadline-dev libsqlite3-dev libssl-dev \
+      lzma lzma-dev tk-dev uuid-dev zlib1g-dev libzstd-dev \
+      inetutils-inetd
 
 # 📥 Скачивание исходников
 echo "⬇️ Скачивание исходников Python $PYTHON_LATEST..."

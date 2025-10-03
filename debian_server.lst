@@ -9,6 +9,7 @@ lsb-release
 nano
 ffmpeg
 libvlc-bin
+libleveldb-dev
 libvlc-dev
 tar
 lsof
