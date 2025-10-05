@@ -13,11 +13,13 @@ pyzstd
 pymorphy3
 exif
 dateparser
+transitions
 pyside6
 keyboard
 mouse
 bcrypt
 python-jose[cryptography]
+jmespath
 tomlkit
 alembic
 citeproc-py
@@ -31,6 +33,9 @@ tinydb
 natsort
 tabulate
 mimesis
+pyexcel
+pyexcel-xlsx
+pyexcel-xls
 schedule
 python-dotenv
 qt5-applications

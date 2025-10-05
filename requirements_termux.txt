@@ -8,10 +8,15 @@ icdiff
 keyboard
 mouse
 conan
+transitions
 croniter
 jsonschema
 tree-sitter
 termcolor
+pyexcel
+pyexcel-xlsx
+pyexcel-xls
+jmespath
 pyzstd
 APScheduler
 tomlkit
