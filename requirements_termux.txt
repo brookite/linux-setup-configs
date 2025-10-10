@@ -125,3 +125,6 @@ pydantic
 uvicorn[standard]
 cbor2
 protobuf
+APScheduler
+pyrate-limiter
+Deprecated

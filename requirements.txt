@@ -159,3 +159,5 @@ Brotli
 jsonpatch
 jsonschema
 APScheduler
+pyrate-limiter
+Deprecated

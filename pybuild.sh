@@ -19,7 +19,7 @@ sudo apt update
 sudo apt install -y gdb lcov pkg-config \
       libbz2-dev libffi-dev libgdbm-dev libgdbm-compat-dev liblzma-dev \
       libncurses-dev libreadline-dev libsqlite3-dev libssl-dev \
-      lzma lzma-dev tk-dev uuid-dev zlib1g-dev libzstd-dev \
+      lzma liblzma-dev tk-dev uuid-dev zlib1g-dev libzstd-dev \
       inetutils-inetd
 
 # 📥 Скачивание исходников

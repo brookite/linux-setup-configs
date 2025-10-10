@@ -12,6 +12,7 @@ libvlc-bin
 libleveldb-dev
 libvlc-dev
 tar
+bind9-dnsutils
 lsof
 dos2unix
 apt-transport-https
