@@ -81,8 +81,6 @@ sympy
 watchdog
 Sphinx
 astral
-pylint
-flake8
 flask
 django
 djangorestframework
