@@ -19,6 +19,7 @@ pyexcel-xls
 jmespath
 pyzstd
 APScheduler
+pytest
 tomlkit
 termux-api
 deepdiff

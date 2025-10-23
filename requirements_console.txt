@@ -20,6 +20,7 @@ natsort
 pyexcel
 pyexcel-xlsx
 pyexcel-xls
+pytest
 croniter
 exif
 citeproc-py
