@@ -36,7 +36,7 @@ echo \
 echo "🟢 Установка Node.js репозитория..."
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 \. "$HOME/.nvm/nvm.sh"
-nvm install 22
+nvm install --lts
 npm config set prefix '~/.local/'
 bash npm_install.sh
 
@@ -48,7 +48,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # Установка JDK, Node и Docker после добавления реп
 echo "🔄 Установка Temurin, Node.js и Docker..."
 sudo apt-get update
-sudo apt install -y temurin-21-jdk temurin-8-jdk
+sudo apt install -y temurin-25-jdk temurin-8-jdk
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo usermod -aG docker $USER
 
@@ -70,11 +70,14 @@ cd ../../
 sudo rm -rf neovim
 
 # LLVM установка
-echo "🛠️ Установка LLVM 20..."
+echo "🛠️ Установка LLVM 21..."
 wget https://apt.llvm.org/llvm.sh
 chmod u+x llvm.sh
-sudo ./llvm.sh 20
+sudo ./llvm.sh 21
 rm llvm.sh
+
+# Deno
+curl -fsSL https://deno.land/install.sh | sh
 
 echo "🛠️ Установка Go..."
 bash install_go.sh
