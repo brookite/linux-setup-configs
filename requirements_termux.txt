@@ -77,6 +77,7 @@ nbt2yaml
 Markdown
 docutils
 Markups
+streams.py
 openpyxl
 sympy
 watchdog
