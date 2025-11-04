@@ -11,6 +11,7 @@ echo "🔎 Ищем последнюю версию Python для ветки $PY
 PYTHON_LATEST=$(curl -s https://www.python.org/ftp/python/ | grep -oP "$PYTHON_MAJOR_MINOR\.\d+/" | sort -V | tail -n1 | tr -d '/')
 echo "👉 Найдена последняя версия: $PYTHON_LATEST"
 
+START_DIR="$(pwd)"
 cd ~
 
 # 📦 Установка необходимых зависимостей для сборки
@@ -69,6 +70,8 @@ echo "✅ Python $PYTHON_VERSION_INSTALLED установлен по пути $P
 echo "🐍 Обновление pip, setuptools, wheel..."
 $PYTHON_BIN -m ensurepip --upgrade
 $PYTHON_BIN -m pip install --upgrade pip setuptools wheel
+
+cd "$START_DIR"
 
 # 📄 Установка пакетов из requirements_console.txt
 echo "📦 Установка зависимостей из requirements_console.txt..."
