@@ -4,6 +4,7 @@ dateparser
 black
 reedsolo
 pyjson5
+graphene
 icdiff
 keyboard
 mouse

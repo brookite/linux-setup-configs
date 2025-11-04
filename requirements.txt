@@ -13,6 +13,7 @@ pyzstd
 pymorphy3
 exif
 dateparser
+graphene
 transitions
 pyside6
 keyboard

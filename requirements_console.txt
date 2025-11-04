@@ -4,6 +4,7 @@ dateparser
 black
 reedsolo
 icdiff
+graphene
 tree-sitter
 tree-sitter-language-pack
 keyboard
