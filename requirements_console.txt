@@ -83,7 +83,6 @@ docutils
 Markups
 openpyxl
 sympy
-streams.py
 watchdog
 Sphinx
 astral

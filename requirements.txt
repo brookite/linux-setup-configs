@@ -136,7 +136,6 @@ peewee
 psycopg[binary]
 pymongo
 valkey
-streams.py
 textual
 vcard
 icalendar
