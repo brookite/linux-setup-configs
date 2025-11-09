@@ -69,6 +69,7 @@ echo "✅ Python $PYTHON_VERSION_INSTALLED установлен по пути $P
 # 📦 Обновление pip, setuptools, wheel
 echo "🐍 Обновление pip, setuptools, wheel..."
 $PYTHON_BIN -m ensurepip --upgrade
+$PYTHON_BIN -m pip config set global.break-system-packages true
 $PYTHON_BIN -m pip install --upgrade pip setuptools wheel
 
 cd "$START_DIR"
