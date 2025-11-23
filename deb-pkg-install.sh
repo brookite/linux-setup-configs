@@ -7,6 +7,7 @@ sudo apt update
 sudo apt dist-upgrade -y
 
 echo "📦 Установка базовых пакетов из debian_server.lst..."
+xargs -a debian_commons.lst sudo apt install -y
 xargs -a debian_server.lst sudo apt install -y
 
 # Если это Raspberry Pi OS — ставим дополнительные пакеты

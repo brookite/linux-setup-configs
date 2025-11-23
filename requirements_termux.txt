@@ -127,4 +127,3 @@ cbor2
 protobuf
 APScheduler
 pyrate-limiter
-Deprecated

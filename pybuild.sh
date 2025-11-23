@@ -17,7 +17,7 @@ cd ~
 # 📦 Установка необходимых зависимостей для сборки
 echo "📦 Установка сборочных пакетов..."
 sudo apt update
-sudo apt install -y gdb lcov pkg-config \
+sudo apt install -y build-essential gdb lcov pkg-config \
       libbz2-dev libffi-dev libgdbm-dev libgdbm-compat-dev liblzma-dev \
       libncurses-dev libreadline-dev libsqlite3-dev libssl-dev \
       lzma liblzma-dev tk-dev uuid-dev zlib1g-dev libzstd-dev \
@@ -39,14 +39,14 @@ echo "⚙️ Конфигурирование сборки..."
 
 
 if [ "$TOTAL_MEM_MB" -ge 4000 ]; then
-  ./configure --enable-optimizations --with-lto --with-computed-gotos --with-system-ffi --with-openssl=/usr --prefix=/usr/local
+  ./configure --enable-optimizations --with-lto --with-computed-gotos --with-system-ffi --disable-gil --enable-experimental-jit=yes-off --with-openssl=/usr --prefix=/usr/local
 
   echo "⚒️ Сборка (используется все ядра процессора)..."
   make -j$(nproc)
 else 
-  ./configure --enable-optimizations --with-computed-gotos --with-system-ffi --with-openssl=/usr --prefix=/usr/local
+  ./configure --enable-optimizations --with-computed-gotos --with-system-ffi --disable-gil --enable-experimental-jit=yes-off --with-openssl=/usr --prefix=/usr/local
 
-  echo "⚒️ Сборка (используется все ядра процессора)..."
+  echo "⚒️ Сборка..."
   make -j$(nproc) -l 4
 fi
 
