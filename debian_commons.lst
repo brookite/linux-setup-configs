@@ -23,6 +23,7 @@ openssh-server
 openssh-client
 mc
 fzf
+libreadline-dev
 build-essential
 cmake
 ninja-build
@@ -48,8 +49,11 @@ ripgrep
 flex
 binutils
 graphviz
+libgraphviz-dev
+libdjvulibre-dev
 libgdbm-dev
 qrencode
+pandoc
 libc6-dev
 libbz2-dev
 libffi-dev
@@ -58,9 +62,11 @@ tesseract-ocr
 tesseract-ocr-rus
 python-is-python3
 unzip
-unrar-free
+unrar
+libunrar-dev
 lz4
 zstd
+libzstd-dev
 libncurses-dev
 libssl-dev
 libsqlite3-dev

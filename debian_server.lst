@@ -2,3 +2,4 @@ vsftpd
 samba
 nginx
 nginx-extras
+libmysqlclient-dev
