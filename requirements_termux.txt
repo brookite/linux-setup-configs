@@ -21,6 +21,7 @@ jmespath
 pyzstd
 APScheduler
 pytest
+pytest-asyncio
 tomlkit
 termux-api
 deepdiff
@@ -88,6 +89,10 @@ django
 djangorestframework
 django-filter
 django-extensions
+django-cors-headers
+django-apscheduler
+django-ratelimit
+channels[daphne]
 Flask-WTF
 Flask-Login
 Flask-SQLAlchemy

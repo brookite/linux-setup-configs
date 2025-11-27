@@ -18,6 +18,7 @@ transitions
 pyside6
 keyboard
 pytest
+pytest-asyncio
 mouse
 bcrypt
 python-jose[cryptography]
@@ -66,12 +67,17 @@ django
 djangorestframework
 django-filter
 django-extensions
+django-cors-headers
+django-apscheduler
+django-ratelimit
+channels[daphne]
 prettytable
 wget
 vk_api
 colorama
 darkdetect
 win32mica; sys_platform == 'win32'
+djvulibre-python; sys_platform == 'linux'
 pymupdf
 rapidfuzz
 readability-lxml
