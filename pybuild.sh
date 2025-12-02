@@ -39,12 +39,12 @@ echo "⚙️ Конфигурирование сборки..."
 
 
 if [ "$TOTAL_MEM_MB" -ge 4000 ]; then
-  ./configure --enable-optimizations --with-lto --with-computed-gotos --with-system-ffi --disable-gil --enable-experimental-jit=yes-off --with-openssl=/usr --prefix=/usr/local
+  ./configure --enable-optimizations --with-lto --with-computed-gotos --with-system-ffi --with-openssl=/usr --prefix=/usr/local
 
   echo "⚒️ Сборка (используется все ядра процессора)..."
   make -j$(nproc)
 else 
-  ./configure --enable-optimizations --with-computed-gotos --with-system-ffi --disable-gil --enable-experimental-jit=yes-off --with-openssl=/usr --prefix=/usr/local
+  ./configure --enable-optimizations --with-computed-gotos --with-system-ffi --with-openssl=/usr --prefix=/usr/local
 
   echo "⚒️ Сборка..."
   make -j$(nproc) -l 4

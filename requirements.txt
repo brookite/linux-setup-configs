@@ -1,6 +1,6 @@
 requests[socks]
 BeautifulSoup4
-pygame
+# pygame
 icdiff
 reedsolo
 tree-sitter
@@ -54,7 +54,7 @@ yt-dlp[default]
 aiohttp
 git+https://github.com/brookite/pyvcard
 python-Levenshtein
-nuitka
+# nuitka
 python-telegram-bot
 pyzipper
 croniter
@@ -88,7 +88,7 @@ greenlet
 httpx
 pyfzf
 segno
-eel
+# eel
 nbt2yaml
 python-docx
 emoji
