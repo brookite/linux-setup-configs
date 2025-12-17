@@ -4,6 +4,8 @@ dateparser
 black
 reedsolo
 icdiff
+aiosqlite
+aiofiles
 graphene
 tree-sitter
 tree-sitter-language-pack
@@ -115,10 +117,10 @@ pyparsing
 requests-html
 pynput
 git+https://github.com/brookite/pyvcard
-peewee
 psycopg[binary]
+asyncpg
 pymongo
-valkey
+redis
 vcard
 icalendar
 vobject
@@ -143,6 +145,7 @@ mypy-ls
 pyls-isort
 fastapi
 pydantic
+pydantic-settings
 uvicorn[standard]
 grpcio
 grpcio-tools

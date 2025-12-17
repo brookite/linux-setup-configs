@@ -9,6 +9,8 @@ icdiff
 keyboard
 mouse
 conan
+aiosqlite
+aiofiles
 transitions
 croniter
 jsonschema
@@ -127,6 +129,7 @@ mypy-ls
 pyls-isort
 fastapi
 pydantic
+pydantic-settings
 uvicorn[standard]
 cbor2
 protobuf
