@@ -80,6 +80,7 @@ $PYTHON_BIN -m pip install -r requirements_console.txt
 
 echo "📦 Установка uv..."
 curl -LsSf https://astral.sh/uv/install.sh | sh
+uv tool install ty@latest
 
 # ✅ Финал
 echo "🎉 Python $PYTHON_VERSION_INSTALLED успешно установлен и активирован как основной python3!"
